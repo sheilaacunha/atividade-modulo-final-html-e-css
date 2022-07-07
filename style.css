@@ -30,7 +30,7 @@ html, body{
 .img-barra-lateral img{
     width: 60%;
     border-radius: 1px 50px;
-    border: 5px double #a71717;
+    border: 5px double #bbb4b4;
   
        
 }
@@ -53,6 +53,10 @@ html, body{
 .menu a{
     
     text-decoration: none; /*tira o sublinhado*/
+    
+}
+.email:hover{
+    text-decoration: underline;
 }
 .menu a.seletor{
     opacity: 2 ;
@@ -80,9 +84,10 @@ article.descricao  h1{
     margin-top: 50px;
     
 }
-article.descricao h1 > span{
+.acunha{
     color: #be3144;
 }  
+
 article.descricao  h2 > a > span{
   
     color: #be3144;    
